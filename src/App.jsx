@@ -3,14 +3,16 @@ import "./App.css";
 
 const App = () => {
   return (
-    <div>
+    <div className="page">
       <header>
-        <form action="" className="form">
-          <input type="text" placeholder="Avengers, Star Wars, The matrix..." />
+        <form className="form">
+          <input type="text" placeholder="Search Avengers, Star Wars, The matrix..." />
           <button type="submit">Buscar</button>
         </form>
       </header>
-       main
+       <main>
+        Aqui iran los resultados
+       </main>
     </div>
   );
 };
